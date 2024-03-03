@@ -1,0 +1,29 @@
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.link {
+    margin: 16px;
+    padding: 8px 4px;
+    align-items: center;
+    &:hover {
+        box-shadow: 0 2px 0 0 white; /* Border bottom */
+        cursor: pointer;
+    }
+}
+
+.icon {
+    margin: 16px;
+    padding: 8px 4px;
+    align-items: center;
+    &:hover {
+        cursor: pointer;
+    }
+}
