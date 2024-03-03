@@ -1,6 +1,5 @@
 .navigation {
     display: flex;
-    align-items: center;
 }
 
 .container {
@@ -22,7 +21,6 @@
 .icon {
     margin: 16px;
     padding: 8px 4px;
-    align-items: center;
     &:hover {
         cursor: pointer;
     }
