@@ -8,7 +8,16 @@ export default function Page() {
     <div className={styles.base}>
       <Navigation />
       <div className={styles.welcome}>
-          Hi, my name is <br/><span className={styles.name}>Kate.</span>
+        Hi, my name is <br />
+        <span className={styles.name}>Kate.</span>
+      </div>
+      <div className={styles.content}>
+        <span className={styles.heading}>About me.</span>
+        <div className={styles.text}>
+          I am a front end developer based in Auckland, NZ. I am an experienced
+          Search Engine Optimisation professional, looking to pivot my career
+          into frontend software development.
+        </div>
       </div>
     </div>
   );
