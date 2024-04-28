@@ -57,3 +57,60 @@
 .text {
     line-height: 1.5;
 }
+
+.columnContainer {
+    display: flex;
+}
+
+.leftColumn {
+    margin-top: 400px;
+    padding: 0 10vw;
+    width: 50vw;
+    text-align: center;
+}
+
+.rightColumn {
+    padding: 0 10vw;
+    width: 50vw;
+    text-align: center;
+}
+
+.columnBreak {
+    margin: 100px auto;
+}
+
+.circle {
+    height: 40px;
+    width: 40px;
+    border: 2px solid #d1d1d1;
+    border-radius: 99px;
+}
+
+.line {
+    height: 300px;
+    width: 2px;
+    background-color: #d1d1d1;
+    margin: 0 auto;
+}
+
+.experience {
+    padding-bottom: 540px;
+    line-height: 1.5;
+}
+
+.dateRange {
+    font-weight: 100;
+    font-size: smaller;
+}
+
+.jobTitle {
+    font-weight: bold;
+}
+
+.employer {
+    font-style: italic;
+}
+
+.jobDescription {
+    font-size: smaller;
+}
