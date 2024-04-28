@@ -36,7 +36,7 @@ export default function Page() {
             transition={{ duration: 2 }}
             className={styles.experience}
           >
-            <div className={styles.dateRange}>4. Jan 2021 - Sept 2021</div>
+            <div className={styles.dateRange}>Jan 2021 - Sept 2021</div>
             <div className={styles.jobTitle}>SEO Specialist</div>
             <div className={styles.employer}>YoungShand.</div>
             <div className={styles.jobDescription}>
