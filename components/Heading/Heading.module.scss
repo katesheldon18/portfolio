@@ -1,6 +1,8 @@
+@import "/styles/variables.scss";
+
 .headingWrap {
     margin: 200px 20px 140px;
-    font-size: 70px;
+    font-size: $font-size-heading;
     font-weight: 600;
     line-height: 1.3;
 }

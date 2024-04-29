@@ -1,15 +1,17 @@
+@import "/styles/variables.scss";
+
 .base {
     width: 50%;
     padding: 24px;
     line-height: 1.5;
-    background-color: #35353d;
+    background-color: $color-dark-secondary;
     border-radius: 16px;
     margin: 20px;
 }
 
 .title {
     font-weight: bold;
-    font-size: larger;
+    font-size: $font-size-lg;
 }
 
 .link {
