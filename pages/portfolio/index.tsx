@@ -1,17 +1,16 @@
 import React from "react";
-import styles from "./index.module.scss";
-import { Navigation } from "../components/Navigation/Navigation";
-import Document from "./_document";
+import styles from "./portfolio.module.scss";
+import { Navigation } from "../../components/Navigation/Navigation";
+import { Heading } from "../../components/Heading/Heading";
+import Document from "./../_document";
 import { motion } from "framer-motion";
-import { ProjectTile } from "../components/ProjectTile/ProjectTile";
+import { ProjectTile } from "../../components/ProjectTile/ProjectTile";
 
 export default function Page() {
   return (
     <div className={styles.base}>
       <Navigation />
-      <div className={styles.welcome}>
-        <span className={styles.name}>My Projects.</span>
-      </div>
+      <Heading heading="My Projects." />
       <div className={styles.projectsContainer}>
         <ProjectTile
           title={"SEO WEBSITE CRAWLER"}

@@ -1,16 +1,15 @@
 import React from "react";
-import styles from "./index.module.scss";
-import { Navigation } from "../components/Navigation/Navigation";
+import styles from "./experience.module.scss";
+import { Navigation } from "../../components/Navigation/Navigation";
+import { Heading } from "../../components/Heading/Heading";
 import { motion } from "framer-motion";
-import Document from "./_document";
+import Document from "./../_document";
 
 export default function Page() {
   return (
     <div className={styles.base}>
       <Navigation />
-      <div className={styles.welcome}>
-        <span className={styles.name}>My Experience.</span>
-      </div>
+      <Heading heading="My Experience." />
       <div className={styles.columnContainer}>
         <div className={styles.leftColumn}>
           <motion.div
