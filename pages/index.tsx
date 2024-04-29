@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./index.module.scss";
 import { Navigation } from "../components/Navigation/Navigation";
+import { Footer } from "../components/Footer/Footer";
 import Document from "./_document";
 import { motion } from "framer-motion";
 
@@ -25,6 +26,7 @@ export default function Page() {
           career break, I am now seeking a full-time role.
         </div>
       </motion.div>
+      <Footer />
     </div>
   );
 }

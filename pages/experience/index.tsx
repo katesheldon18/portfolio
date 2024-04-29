@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./experience.module.scss";
 import { Navigation } from "../../components/Navigation/Navigation";
 import { Heading } from "../../components/Heading/Heading";
+import { Footer } from "../../components/Footer/Footer";
 import { motion } from "framer-motion";
 import Document from "./../_document";
 
@@ -105,6 +106,7 @@ export default function Page() {
           </motion.div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

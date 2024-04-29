@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./portfolio.module.scss";
 import { Navigation } from "../../components/Navigation/Navigation";
 import { Heading } from "../../components/Heading/Heading";
+import { Footer } from "../../components/Footer/Footer";
 import Document from "./../_document";
 import { motion } from "framer-motion";
 import { ProjectTile } from "../../components/ProjectTile/ProjectTile";
@@ -23,6 +24,7 @@ export default function Page() {
           description={"Kate, it's my bitfinder!"}
         />
       </div>
+      <Footer />
     </div>
   );
 }
