@@ -1,3 +1,5 @@
+@import "/styles/variables";
+
 .base {
     width: 1280px;
     margin: 0 auto;
@@ -6,60 +8,42 @@
       }
 }
 
-
-.columnContainer {
+.column-container {
     display: flex;
 }
 
-.leftColumn {
+.left-column {
     margin-top: 400px;
-    padding: 0 10vw;
+    padding: 0 6vw;
     width: 50vw;
     text-align: center;
 }
 
-.rightColumn {
-    padding: 0 10vw;
+.right-column {
+    padding: 0 6vw;
     width: 50vw;
     text-align: center;
 }
 
-.columnBreak {
+.column-break {
     margin: 100px auto;
 }
 
 .circle {
     height: 40px;
     width: 40px;
-    border: 2px solid #d1d1d1;
+    border: 2px solid $color-light;
     border-radius: 99px;
 }
 
 .line {
     height: 300px;
     width: 2px;
-    background-color: #d1d1d1;
+    background-color: $color-light;
     margin: 0 auto;
 }
 
-.experience {
+.space-below {
     padding-bottom: 540px;
-    line-height: 1.5;
-}
 
-.dateRange {
-    font-weight: 100;
-    font-size: smaller;
-}
-
-.jobTitle {
-    font-weight: bold;
-}
-
-.employer {
-    font-style: italic;
-}
-
-.jobDescription {
-    font-size: smaller;
 }

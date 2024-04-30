@@ -17,8 +17,8 @@ export const ProjectTile = (props: Props) => {
     >
       <div className={styles.title}>{props.title}</div>
       <div className={styles.link}>{props.link}</div>
-      <div className={styles.icons}>* icons *</div>
-      <div className={styles.description}>{props.description}</div>
+      {/* <div className={styles.icons}>* icons *</div> */}
+      <div>{props.description}</div>
     </motion.div>
   );
 };

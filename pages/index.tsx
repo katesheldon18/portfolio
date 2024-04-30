@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./index.module.scss";
 import { Navigation } from "../components/Navigation/Navigation";
 import { Footer } from "../components/Footer/Footer";

@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export const Navigation = () => {
   return (
-    <div className={styles.navigation}>
+    <div className={styles.base}>
       <Link href="/" className={styles.icon}>
         <HomeRoundedIcon />
       </Link>

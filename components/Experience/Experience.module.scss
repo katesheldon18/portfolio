@@ -1,0 +1,24 @@
+@import "/styles/variables";
+
+.experience {
+    line-height: 1.5;
+}
+
+.date-range {
+    font-weight: $font-weight-light;
+    font-size: $font-size-sm;
+}
+
+.job-title {
+    font-size: $font-size-lg;
+    font-weight: $font-weight-heavy;
+}
+
+.employer {
+    font-style: italic;
+    font-size: $font-size-reg;
+}
+
+.job-description {
+    font-size: $font-size-sm;
+}

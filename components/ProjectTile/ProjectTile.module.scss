@@ -1,4 +1,4 @@
-@import "/styles/variables.scss";
+@import "/styles/variables";
 
 .base {
     width: 50%;
@@ -10,7 +10,7 @@
 }
 
 .title {
-    font-weight: bold;
+    font-weight: $font-weight-heavy;
     font-size: $font-size-lg;
 }
 
@@ -19,10 +19,4 @@
     &:hover {
         cursor: pointer;
     }
-}
-
-.icons {
-}
-
-.description {
 }

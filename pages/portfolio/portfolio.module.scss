@@ -1,3 +1,5 @@
+@import "/styles/variables";
+
 .base {
     width: 1280px;
     margin: 0 auto;
@@ -6,6 +8,6 @@
       }
 }
 
-.projectsContainer {
+.container {
     display: flex;
 }

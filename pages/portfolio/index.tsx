@@ -12,7 +12,7 @@ export default function Page() {
     <div className={styles.base}>
       <Navigation />
       <Heading heading="My Projects." />
-      <div className={styles.projectsContainer}>
+      <div className={styles.container}>
         <ProjectTile
           title={"SEO WEBSITE CRAWLER"}
           link={"https://www.github.com"}
