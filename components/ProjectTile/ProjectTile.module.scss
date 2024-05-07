@@ -9,14 +9,23 @@
     margin: 20px;
 }
 
+.header {
+    display: flex;
+}
+
 .title {
     font-weight: $font-weight-heavy;
     font-size: $font-size-lg;
+    margin-bottom: 12px;
 }
 
 .link {
-    text-decoration: underline;
+    padding: 2.5px 12px;
     &:hover {
         cursor: pointer;
     }
+}
+
+.description {
+    font-size: $font-size-sm;
 }

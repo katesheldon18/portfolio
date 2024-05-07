@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import styles from "./ProjectTile.module.scss";
+import OpenInNewOutlinedIcon from "@mui/icons-material/OpenInNewOutlined";
 
 type Props = {
   title: string;
@@ -15,10 +16,13 @@ export const ProjectTile = (props: Props) => {
       style={{ opacity: 0 }}
       transition={{ duration: 2 }}
     >
-      <div className={styles.title}>{props.title}</div>
-      <div className={styles.link}>{props.link}</div>
-      {/* <div className={styles.icons}>* icons *</div> */}
-      <div>{props.description}</div>
+      <div className={styles.header}>
+        <div className={styles.title}>{props.title} </div>
+        <a href={props.link} target="_blank" className={styles.link}>
+          <OpenInNewOutlinedIcon />
+        </a>
+      </div>
+      <div className={styles.description}>{props.description}</div>
     </motion.div>
   );
 };
