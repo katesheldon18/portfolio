@@ -35,8 +35,6 @@
     text-align: right;
     line-height: 3;
     margin: 20px;
-    width: 34vw;
-    margin-left: auto;
 }
 
 .heading {
@@ -59,3 +57,9 @@
     line-height: 1.5;
 }
 
+@media (min-width: 550px) {
+    .content {
+        width: 34vw;
+        margin-left: auto;
+    }
+}
