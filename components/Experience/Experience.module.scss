@@ -22,3 +22,10 @@
 .job-description {
     font-size: $font-size-sm;
 }
+
+@media (max-width: 550px) {
+    .experience {
+        padding: 24px;
+        margin: 20px;
+    }
+}
