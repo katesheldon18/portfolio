@@ -29,3 +29,9 @@
 .description {
     font-size: $font-size-sm;
 }
+
+@media (max-width: 550px) {
+    .base {
+        width: 100%;
+    }
+}

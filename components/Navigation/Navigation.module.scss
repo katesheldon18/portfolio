@@ -31,3 +31,14 @@
         transform: scale(1.3);
     }
 }
+
+@media (max-width: 534px) {
+    .icon {
+        margin: 16px 8px;
+        padding: 8px 0px;
+    }
+    .link {
+        margin: 16px 8px;
+        padding: 8px 0px;
+    }
+}
