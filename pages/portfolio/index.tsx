@@ -22,28 +22,35 @@ export default function Page() {
             }
           />
           <ProjectTile
+            title={"MARS TRADING PLATFORM"}
+            link={"https://github.com/katesheldon18/mars-trading-vue"}
+            description={
+              "I am currently building a Vue application where two characters from a dataset can trade items from their inventory (database). This includes calling and updating data from an API endpoint."
+            }
+          />
+        </div>
+        <div className={styles.row}>
+          <ProjectTile
             title={"BITFINDER"}
             link={"https://github.com/ShanonJackson/bitfinder"}
             description={
               "I am currently collaborating on this project, building the frontend using React and Mapbox. The map will display peers across the globe for movies and TV shows, displaying the data gathered from bittorrent."
             }
           />
-        </div>
-        <div className={styles.row}>
-          <ProjectTile
-            title={"ECOMMERCE PRODUCT PAGE"}
-            link={"https://mrfrontend.vercel.app/"}
-            description={
-              "I created a responsive ecommerce product page using React, hosted on Vercel. This includes a GET request to fetch product data, 'Add to Cart' functionality, and a cart for users to view."
-            }
-          />
-          <ProjectTile
+                    <ProjectTile
             title={"SHOPPING LIST"}
             link={"https://github.com/katesheldon18/shopping-list"}
             description={
               "One of my first projects was to create a simple to-do list using vanilla JS where the user can add, check and remove items from their list."
             }
           />
+          {/* <ProjectTile
+            title={"ECOMMERCE PRODUCT PAGE"}
+            link={"https://mrfrontend.vercel.app/"}
+            description={
+              "I created a responsive, mobile-first ecommerce product page using React, hosted on Vercel. This includes an API call, 'Add to Cart' functionality, and a cart for users to view."
+            }
+          /> */}
         </div>
       </div>
       <Footer />
